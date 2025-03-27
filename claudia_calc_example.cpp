@@ -105,7 +105,7 @@ void execute(string const cmd) {
         }
 
 
-        // Arithmetic operations (A and B)
+        // Added Arithmetic operations (A and B)
         case '+':
             registers[0] += registers[1];
             spdlog::info("A = A + B -> {}", registers[0]);
