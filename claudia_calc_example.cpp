@@ -160,7 +160,7 @@ void execute(string const cmd) {
     }
 }
 
-
+// Added Start calculator
 /*
  * Start the calculator
  */
