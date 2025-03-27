@@ -54,7 +54,7 @@ inline void print_line() { cout << std::string(MENU_WIDTH, '-') << endl; }
 
 inline void print_title(string const title) { cout << fmt::format("{:^{}}", title, MENU_WIDTH) << endl; }
 
-
+// Print menu
 void print_menu() {
     print_line();
     print_title("ClaudiaCalc");
