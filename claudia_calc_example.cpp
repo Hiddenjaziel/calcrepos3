@@ -148,7 +148,7 @@ void execute(string const cmd) {
             break;
 
 
-        // Quit (already handled by loop)
+        // Updated Quit Menu
         case 'q':
             break;
 
