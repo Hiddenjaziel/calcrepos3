@@ -140,7 +140,7 @@ void execute(string const cmd) {
             break;
 
 
-        // Print registers
+        // Updated Print registers
         case 'p':
             for (int i = 0; i < 4; i++) {
                 cout << to_char(static_cast<reg_name>(i)) << " = " << registers[i] << endl;
